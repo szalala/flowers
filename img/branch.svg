@@ -1,0 +1,26 @@
+<svg width="582" height="596" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <linearGradient spreadMethod="pad" y2="0.364062" x2="0.195313" y1="0.6375" x1="0.703125" id="svg_17">
+   <stop offset="0" stop-color="#f84595"/>
+   <stop offset="0.726563" stop-color="#07ba6a"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="598" width="584" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="47.385345" x="1" height="400" width="580"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(-84.21710205078125 294.99999999999994,307.2404174804687) " stroke="null" id="svg_10">
+   <path fill="url(#svg_17)" id="svg_5" d="m44.878929,478.241772c0,0 -108.871519,-168.651485 105.399298,-301.64602c0,0 102.77777,184.279556 -105.399298,301.64602z"/>
+   <path fill="url(#svg_17)" id="svg_6" d="m41.476151,523.549316c0,0 76.006939,-185.717615 308.055532,-86.803364c0.034722,0.017326 -92.309021,189.667948 -308.055532,86.803364z"/>
+   <path fill="url(#svg_17)" id="svg_7" d="m206.840722,385.790126c0,0 47.916663,-182.287063 276.197896,-118.631263c0,0.017326 -62.604162,188.00465 -276.197896,118.631263z"/>
+   <path fill="url(#svg_17)" id="svg_8" d="m202.500445,317.231062c0,0 -72.74305,-169.119288 141.371517,-256.875582c-0.017361,0 64.861106,182.339041 -141.371517,256.875582z"/>
+   <path fill="url(#svg_17)" id="svg_9" d="m349.566406,239.593163c0,0 -2.621528,-179.5149 223.211789,-179.237684c0,0 -9.461805,188.559083 -223.211789,179.237684z"/>
+  </g>
+ </g>
+</svg>
