@@ -26,9 +26,7 @@ html, body {
 #mainNavbar .nav-link:hover {
 	color: #006400;
 }
-.current-link {
-	text-decoration: underline;
-}
+
 /*GŁÓWNA CZĘŚĆ*/
 main {
 	padding-top: 150px;
@@ -43,7 +41,7 @@ h1 {
 
 h2 {
 	font-family: 'Crimson Text', serif;
-	font-size: 68px;
+	font-size: 58px;
 }
 
 
@@ -84,182 +82,32 @@ a.link:active {
 	transform: scale(1.07);
 }
 
-.plantGreen {
-	position: absolute;
-	z-index: 1;
-	margin-left: -15px;
-	margin-top: -15px;
+.current-link {
+	text-decoration: underline;
+}
+
+/*MAIN*/
+
+.white {
+	min-height: 350px;
+	background-color: white;
+	border: 2px solid #acceb7;
+	font-size: .9rem;
+}
+
+.long-description {
+    display: none;
+}
+
+.button {
+	border: solid 1px green;
 
 }
 
-.branch {
-	position: absolute;
-	top: 30%;
-  	left: 5%;
-  	height: 80%;
-  	opacity: .9;
-  	z-index: 3;
+.white img {
+	border-radius: 55% 20% / 15% 40%;
+	max-height: 300px;
 }
-
-.frame {
-  position: absolute;
-  shape-outside: ellipse(100px 200px at 50% 50%);
-  width: 350px;
-  height: 480px;
-  border: 3px solid #acceb7;
-  float: left;
-  background-color: lighten(purple, 60);
-  z-index: 2;
-}
-
-.plant2 {
-	position: relative;
-	z-index: 1;
-	margin-left: 35px;
-	margin-top: 30px;
-}
-
-
-/*BANER ŚRODEK*/
-.middleBanner {
-	height: 440px;
-	margin: 150px 0 50px;
-	background-image: url("img/bg.jpg");
-	background-size: cover;
-	background-position: top;
-}
-
-.text-right {
-	height: 440px;
-	position: relative;
-
-}
-
-.text-right p {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	color: #fff;
-	font-family: 'League Script', cursive;
-	font-weight: 500;
-	font-size: 48px;
-	text-shadow: 2px 2px 2px #000;
-}
-
-
-/*PROFILE LUDZI*/
-
-.profile {
-	border: 3px solid #acceb7;
-	height: 250px;
-	
-}
-
-.profile h3 {
-	font-family: 'Crimson Text', serif;
-	font-style: italic;
-	font-size: 36px;
-}
-
-.profileradek {
-	margin-top: -25px;
-	margin-bottom: 25px;
-}
-
-.profilejulia {
-	top: 55px;
-	
-}
-
-.profileTitle {
-	text-transform: uppercase;
-}
-
-.profile h3, .profile p {
-	padding-left: 40px;
-}
-
-
-.profilePictureRadek {
-	border: 3px solid #acceb7;
-	border-radius: 50%;
-	position: absolute;
-	top: 40px;
-	left: -60px;
-}
-
-.profilePictureJulia {
-	border: 3px solid #acceb7;
-	border-radius: 50%;
-	position: absolute;
-	top: 40px;
-	left: -60px;
-}
-
-
-/*KONTAKT I PALMA*/
-.contact {
-	top: -55px;
-}
-
-.fotoPalm {
-	top: 40px;
-}
-
-
-.contact-name-input, .contact-mail-input, .contact-message-input {
-	width: 300px;
-	background-color: transparent;
-  	border-radius: 0;
-  	border-style: none none solid;
-  	border-color: #acceb7;
-  	border-bottom-width: 2px;
-  	border-bottom-
-  	font-family: inherit;
- 	font-size: 1em;
-}
-
-.contact-name-input:focus {
-  outline: none;
-}
-.contact-mail-input:focus {
-  outline: none;
-}
-.contact-message-input:focus {
-  outline: none;
-}
-
-.linkContact {
-	display: block;
-	width: 300px;
-	position: relative;
-	font-size: 15px;
-	color: #ffffff;
-	background-color: #acceb7;
-	letter-spacing: .2rem;
-	padding: 10px 20px;
-	margin: 100px 0 auto;
-	transition: all 0.3s ease-in-out;
-	text-decoration: none;
-	text-align: center;
-	box-shadow: 0 6px #6f9b7e;
-}
-	
-a.linkContact:hover {
-    color: #ffffff;
-    box-shadow: 0 4px #6f9b7e;
-	top: 2px;
-	text-decoration: none;
-}
-a.linkContact:active {
-	box-shadow: none;
-	top: 6px;
-}
-
-.contactSmall {
-	top: auto;
-}
-
 /*FOOTER*/
 footer {
 	position: relative;
